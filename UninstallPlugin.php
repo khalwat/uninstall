@@ -20,7 +20,7 @@ class UninstallPlugin extends BasePlugin
     
     public function getReleaseFeedUrl()
     {
-        return 'https://github.com/khalwat/uninstall/blob/master/releases.json';
+        return 'https://raw.githubusercontent.com/khalwat/uninstall/master/releases.json';
     }
     
     public function getVersion()
